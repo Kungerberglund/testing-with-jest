@@ -1,5 +1,4 @@
 var _ = require('underscore');
-
 let stack = [];
 
 // Lägger ett element överst i stacken
