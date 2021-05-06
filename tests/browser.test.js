@@ -38,7 +38,6 @@ describe('Clicking "Poppa stacken!"', () => {
 		let pop = await driver.findElement(By.id('pop'));
 		await pop.click();
 		let alert = await driver.switchTo().alert();
-    await alert.sendKeys("Bananer");
     await alert.accept();
 	});
 });
