@@ -18,6 +18,6 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBe(42);
 });
 
-test('There should a str in pop', () =>{
+test('Pop should be defined with str', () =>{
   expect(stack.pop()).toBeDefined();
 });
